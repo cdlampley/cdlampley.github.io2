@@ -1,0 +1,13 @@
+---
+layout: blog
+---
+<div class="blog-body">
+<h1 id="main-title">{{ page.title }}</h1>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+  {{ content }}
+</div>
+{% if page.comments %}
+{% include disqus.html %}
+{% endif %}

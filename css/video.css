@@ -1,0 +1,27 @@
+#player {
+	width: 1400px;
+	height: 600px;
+	visibility: visible;
+	margin-top: 25px;
+}
+/** footer **/
+#test-footer {
+  position: absolute;
+	left: 0;
+  height: 50px;
+  width: 100%;
+  background: #fff8f1;
+}
+#test-footer p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.top {
+	text-align: right;
+	margin-top: 40px;
+	font-family: Lobster;
+}
+.back {
+	margin-top: -50px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang=eng>
+  <head>
+  <meta charset="utf-8">
+  <meta name="description" content="Skillcrush 102 - Magic 8 Ball" />
+  <title>Magic 8 Ball</title>
+  <link rel="stylesheet" href="../css/eight-ball.css" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+	  <div class="app">
+    <header>
+      <h1>Magic 8 Ball</h1>
+    </header>
+  <form id="magic-eight-ball" method="post">
+    <label>Ask a Yes or No Question:</label><br> <input type="text" name="question" id="question" size="70" />
+    <input type="submit" name="submit" value="Ask" id="submit"/><br>
+	</form>
+  <div id="eightball">
+    <p id="answer"></p>
+  </div>
+	<form id="refresh-button">
+	<input type="submit" onClick="history.go(0)" name="submit" value="Refresh" id="refresh">
+	</form>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="../JS/eight-ball.js"></script>
+</body>
+</html>

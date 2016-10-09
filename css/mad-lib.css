@@ -1,0 +1,35 @@
+body {
+ text-align: center;
+ font-family: 'Fjalla One';
+ font-size: 20px;
+ background: #e6eaf0;
+}
+button {
+ margin: 40px;
+}
+input {
+ font-size: 24px;
+}
+.fill {
+ background: #fff;
+ color: #d62b6a;
+ border-bottom: 2px black solid;
+ font-family: 'Shadows Into Light';
+ padding: 0 6px;
+ margin: 4px;
+}
+div#limerick {
+  display: none;
+}
+#button {
+	background: #d62b6a;
+	color: #fff;
+	padding: 10px;
+	background-radius: 5px;
+}
+#reset-button {
+	background: #d62b6a;
+	color: #fff;
+	padding: 10px;
+	background-radius: 5px;
+}

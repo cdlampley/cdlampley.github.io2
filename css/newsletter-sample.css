@@ -1,0 +1,178 @@
+@font-face {
+	font-family: 'Wisdom Script';
+}
+body {
+	background: URL('../IMG/Background.png');
+	width: 100%;
+	height: 100%;
+}
+#logo {
+	text-align: center;
+	display: block;
+	margin: 30px auto;
+	max-width: 100%;
+}
+.tagline {
+	font-family: 'Noticia Text';
+	text-align: center;
+	color: #ff6666;
+	margin: 0 auto;
+	font-size: 125%;
+	max-width: 850px;
+}
+#paper {
+	background: url('../IMG/Papers.png') no-repeat center top;
+	margin: 30px auto 0 auto;
+	height: 375px;
+}
+#signup {
+	text-align: center;	
+}
+
+#signup h2 {
+	font-family: cursive;
+	font-size: 25px;
+	padding-top: 50px;
+}
+#signup h3 {
+	text-transform: uppercase;
+	font-family: 'Noticia Text';
+	color: #FF3855;
+	font-weight: bold;
+	margin-top: 100px;
+	letter-spacing: 1px;
+	font-size: 30px;
+}
+#signupform {
+	margin: 20px auto 0 auto;
+	text-align: center;
+}
+#email {
+	color: #000;
+	font-size: 120%;
+	background-color: #FEFEFB;
+	border: solid #c4bfab 2px;
+	width: 500px;
+	padding: 15px;
+	border-radius: 5px 0 0 5px;
+}
+#button {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 120%;
+	font-weight: bold;
+	color: #FFF0DC;
+	background: #FF3855;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	padding: 17px 50px;
+	margin-left: -5px;
+	
+}
+#blogposts {
+	background: #FF3855;
+	width: 100%;
+	margin-top: -30px;
+	padding: 50px;
+	overflow: auto;
+}
+#blogposts h2 {
+	text-align: center;
+	color: #333333;
+	font-family: 'Wisdom Script', cursive;
+	padding-bottom: 20px;
+}
+
+#post1 {
+	padding-bottom: 20px;
+}
+#post2 {
+	padding-bottom: 20px;
+}
+#post3 {
+	padding-bottom: 20px;
+}
+#info {
+	background: #333333;
+	width: 100%;
+	padding: 50px;
+	overflow: auto;
+}
+#about {
+	float: left;
+	width: 60px;
+	padding-bottom: 20px;
+}
+#contact {
+	float: right;
+	width: 550px;
+}
+#form {
+	padding-top: 20px;
+}
+#name {
+	background: #FFF0DC;
+	padding: 10px;
+	margin-right: 10px;
+	float: left;
+	width: 200px;
+	border: none;
+	border-radius: 3px;
+	font-size: 90%;
+}
+#e-mail {
+	background: #FFF0DC;
+	border: none;
+	border-radius: 3px;
+	padding: 10px;
+	width: 200px;
+	float: left;
+	font-size: 90%;
+	
+}
+#reason {
+	background: #FFF0DC;
+	border: none;
+	border-radius: 3px;
+	width: 410px;
+	padding: 10px;
+	font-size: 90%;
+	margin-top: 10px;
+}
+#comments {
+	background: #FFF0DC;
+	border: none;
+	border-radius: 3px;
+	font-size: 90%;
+	margin-top: 10px;
+	width: 410px;
+	padding: 10px 10px 75px 10px;
+	
+}
+#submit {
+	background: #d8d1a9;
+	color: #333333;
+	border: none;
+	border-radius: 3px;
+	padding: 5px 20px;
+	font-size: 90%;
+	font-weight: bold;
+	float: right;
+	margin-right: 140px;
+}
+footer {
+	background: #FF3855;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	font-size: 11px;
+}
+
+
+
+
+
+
+
+
+

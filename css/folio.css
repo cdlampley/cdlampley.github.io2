@@ -1,0 +1,92 @@
+
+h1 {
+    font-family: Lobster;
+    font-size: 4em;
+    color: #c7ac05;
+    margin-top: 30px;
+		text-align: center;
+		padding-bottom: 20px;
+}
+.back {
+	margin-top: 25px;
+}
+.row {
+	padding: 25px 40px 100px 40px;
+}
+a {
+    color: #ef4f91;
+	text-decoration: none;
+}
+/** Portfolios **/
+.folio-title-page {
+  font-family: Lobster;
+  font-size: 4em;
+  color: #c7ac05;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: -5px;
+}
+.folio-image {
+	padding-bottom: 10px;
+}
+.newsletter-pic {
+	height: 350px;
+	width: 600px;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+.skills {
+	margin-left: 50px;
+}
+.skills li {
+	display: block;
+	background: #ef4f91;
+	color: #fff8f1;
+	margin-bottom: 10px;
+	width: 50%;
+	padding: 10px;
+	border-radius: 5px;
+}
+.view-site {
+	background: #7faf94;
+	width: 50%;
+	padding: 10px 25px;
+	border-radius: 5px; 
+	margin-top: 25px;
+	text-align: center;
+}
+.view-site a {
+	color: #fff8f1;
+}
+.folio-title {
+	text-align: center;
+}
+hr {
+	margin: auto 50px;
+}
+.col-md-6 h3 {
+	text-align: center;
+}
+/** Summary Section **/
+
+.summary h3 {
+	text-align: center;
+	color: #ef4f91;
+}
+
+.madlib-summary {
+	margin-left: 800px;
+	margin-right: 50px;
+	position: absolute;
+	margin-top: -750px
+}
+.madlib-summary ul {
+	margin-left: -40px;
+	margin-top: 10px;
+}
+.madlib-summary li {
+	background: #7faf94;
+	color: #fff8f1;
+	padding: 5px 15px;
+	border-radius: 5px;
+}

@@ -1,0 +1,271 @@
+
+h1 {
+    font-family: Lobster;
+    font-size: 4em;
+    color: #c7ac05;
+    /** margin-top: 30px; **/
+	text-align: center;
+}
+#main {
+  /**padding-top: 70px;**/
+  height: 500px;
+}
+#main h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+.thumbnail {
+    text-align: center;
+}
+
+#mail-title {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/** About Section **/
+#about {
+  font-size: 1.25em;
+  margin-bottom: 325px;
+}
+#about h2 {
+  background: #7faf94;
+  padding: 10px 50px;
+  color: #fff8f1;
+  text-align: center;
+}
+#about h3 {
+    color: #ef4f91;
+		font-family: Lobster;
+		top: 0;
+		font-size: 2em;
+}
+a {
+    color: #ef4f91;
+		text-decoration: none;
+}
+.lead {
+  font-family: Lobster;
+  text-align: center;
+}
+/** Nav Menu **/
+#nav-meny {
+    margin-top: 15px;
+    float: none;
+}
+#nav-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+#nav-menu li {
+  display: inline;
+}
+#nav-menu a {
+    background: #ef4f91;
+    padding: 10px;
+    color: #000;
+    font-size: 1.25em;
+}
+#nav-menu a:hover {
+  text-decoration: underline;
+}
+.navbar {
+    background: #ef4f91;
+}
+/** Image **/
+#image {
+  border: 5px solid #c7ac05;
+  border-radius: 100px;
+  width: 260px;
+  height: 276px;
+}
+.photo {
+	text-align: center;
+	color: #ef4f91;
+	font-family: Lobster;
+	margin-top: 50px;
+}
+/** Portfolio Section **/
+#portfolio {
+  margin-bottom: 325px;
+}
+#portfolio h2 {
+	background: #7faf94;
+	padding: 10px 50px;
+	color: #fff8f1;
+	text-align: center;
+}
+#portfolio h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/** Contact Section **/
+#contact h2 {
+	background: #7faf94;
+	padding: 10px 50px;
+	color: #fff8f1;
+	text-align: center;
+}
+#contact {
+	font-size: 1.25em;
+  margin-bottom: 75px;
+}
+#contact p {
+	text-align: justify;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+
+/** Social **/
+#social {
+   position: relative;
+   top: 20px;
+   height: 50px;
+}
+#social ul {
+    list-style: none;
+}
+#social li, #social a {
+    height: 50px;
+    display: block;
+}
+#social li {
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	margin-left: 41%;
+}
+
+#twitter {
+  left: 0;
+  width: 50px;
+  background: url(https://s3.amazonaws.com/f.cl.ly/items/1J0N1I0E0c120l280f2g/3-6%20icon%20sprite.png);
+}
+#github {
+  left: 50px;
+  width: 50px;
+  background: url(https://s3.amazonaws.com/f.cl.ly/items/1J0N1I0E0c120l280f2g/3-6%20icon%20sprite.png) -50px 0;
+}
+#facebook {
+  left: 100px;
+  width: 50px;
+  background: url(https://s3.amazonaws.com/f.cl.ly/items/1J0N1I0E0c120l280f2g/3-6%20icon%20sprite.png) -100px 0;
+}
+#tumblr {
+  left: 150px;
+  width: 50px;
+  background: url(https://s3.amazonaws.com/f.cl.ly/items/1J0N1I0E0c120l280f2g/3-6%20icon%20sprite.png) -150px 0;
+}
+/** footer **/
+#footer {
+  position: absolute;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  background: #fff8f1; 
+}
+#footer p {
+    text-align: center;
+    font-size: 12px;
+	margin-top: 25px;
+}
+#footer-blog {
+    position: absolute;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background: #fff8f1; 
+	margin-top: 40%;
+}
+#footer-blog p {
+    text-align: center;
+    font-size: 12px;
+	margin-top: 25px;
+}
+/** Design Services Page **/
+.started a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+.started {
+		text-align: center;
+	}
+.work-button {
+		background: #9b36e2;
+		padding: 10px 40px;
+		border-radius: 5px;
+		margin-bottom: 50px;
+	}
+.work {
+	text-align: center;
+	font-size: 1.5em;
+}
+.help {
+	color: #9b36e2; 
+	text-align: center;
+	font-size: 3em;
+}
+.square {
+	text-align: center;
+} 
+.process {
+	font-size: 1.25em;
+	text-align: center;
+	list-style: none;
+}
+/**Package**/
+.package {
+	text-align: center;
+}
+.pckg {
+	margin-bottom: 25px;
+}
+
+.disclaimer {
+	margin-bottom: 100px;
+}
+
+.resources {
+	font-size: 1.25em;
+	margin-bottom: 100px;
+}
+/**Shopify**/
+.shopify-ad {
+    height: 80px;
+    width: 700px;
+}
+.shopify {
+    text-align: center;
+    margin-bottom: 50px;
+}
+/** optin **/
+.opt-in {
+	
+}
+.blog-body {
+	margin: 60px auto;
+	width: 70%;
+}
+
+.blog-body p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+.table {
+	border-radius: 25px;
+}
+
+
+
+
+
+
+
+

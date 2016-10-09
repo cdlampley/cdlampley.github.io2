@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mad Libs</title>
+	<link rel="shortcut icon" href="https://s3.amazonaws.com/f.cl.ly/items/0P2f2z0C0L1e3A1g212T/favicon.png">
+	<!-- Stylesheets -->
+		<link href='../css/mad-lib.css' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<h1>Mad Lib</h1>
+  <form id="limerick-form" class="reset">
+    <p><input type="text" name="noun-one" id="noun-one" placeholder="enter a noun">
+    <input type="text" name="verb-one" id="verb-one" placeholder="enter a verb">
+  <input type="text" name="noun-two" id="noun-two" placeholder="enter a noun"></p>
+    <input type="text" name="noun-three" id="noun-three" placeholder="enter a noun">
+   <input type="text" name="noun-four" id="noun-four" placeholder="enter a noun">
+    <input type="text" name="noun-five" id="noun-five" placeholder="enter a noun"></p>
+    <input type="submit" name="submit" value="Gimme a mad lib!" id="button">
+  </form>
+
+  <div id="limerick">
+    <p>There was an Old Man with a <span id="noun-one-new" class="fill"></span>,</p>
+    <p>Who said, "It is just as I <span id="verb-one-new" class="fill"></span>!--</p>
+    <p>Two <span id="noun-two-new" class="fill"></span> and a <span id="noun-three-new" class="fill"></span>,</p>
+    <p>Have all built their <span id="noun-four-new" class="fill"></span> in my <span id="noun-five-new"></span>.</p>
+		<input type="submit" onClick="history.go(0)" name="submit" value="Reset Mad Lib" id="reset-button">
+  </div>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="../JS/mad-lib.js"></script>
+</body>
+</html>
+

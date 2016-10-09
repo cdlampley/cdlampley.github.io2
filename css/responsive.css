@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 767px) {
+
+  #image {
+    margin: 0;
+  }
+  #social li {
+			margin-left: 25%;
+  }
+  #about {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+  #contact {
+    font-size: 1em;
+    margin-bottom: 200px;
+  }
+  #portfolio {
+    margin-bottom: 0;
+  }
+}

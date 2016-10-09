@@ -1,0 +1,77 @@
+
+body {
+	background: url('../IMG/Skillcrush_Computer.jpg') repeat fixed center center / 
+	cover;
+	font-family: 'Roboto', sans-serif;
+	color: #0f0e0e;
+}
+
+.description {
+	background: rgba(255, 255, 255, .75);
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	border-radius: 20px;
+	
+}
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #0f0e0e;
+}
+a:hover {
+	text-decoration: underline;
+}
+h3 {
+	background: #BD9AA4;
+	padding: 5px;
+	text-align: center;
+}
+#social {
+	position: relative;
+}
+#social li, #social a {
+	height: 32px;
+	display: block;
+}
+#social li {
+	margin-top: 20px;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+}
+#instagram {
+ 	left: 0px;
+	width: 32px;
+	background: url('../IMG/social.png');
+}
+#twitter {
+	left: 32px;
+	width: 32px;
+	background: url('../IMG/social.png') -32px 0;
+}
+#dribbble {
+	left: 64px;
+	width: 32px;
+	background: url('../IMG/social.png') -64px 0;
+}
+#instagram:hover {
+ 	left: 0px;
+	width: 32px;
+	background: url('../IMG/social.png') 0 -32px;
+}
+#twitter:hover {
+	left: 32px;
+	width: 32px;
+	background: url('../IMG/social.png') -32px -32px;
+}
+#dribbble:hover {
+	left: 64px;
+	width: 32px;
+	background: url('../IMG/social.png') -64px -32px;
+	
+}

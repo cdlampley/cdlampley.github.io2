@@ -1,0 +1,11 @@
+body {
+	background: #800080;
+}
+#center-box {
+	background: #FFF7FD;
+}
+#viewing-photo {
+	position: relative;
+	height: 300px;
+	overflow: hidden;
+}

@@ -1,0 +1,56 @@
+body {
+  background: #ae323b;
+  font-family: Roboto;
+  color: #fff;
+}
+.app {
+	text-align: center;
+}
+header {
+  font-size: 1.25em;
+}
+#question {
+	padding: 10px;
+	text-align: center;
+}
+#magic-eight-ball {
+  margin: 25px 0;
+}
+#submit {
+  background: #efebdc;
+  color: #ae323b;
+  width: 75px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+#refresh {
+	background: #efebdc;
+	 color: #ae323b;
+	 font-size: 1em;
+	 width: 75px;
+	 height: 40px;
+	 text-align: center;
+	 margin-top: 10px;
+}
+#refresh-button {
+	display: none;
+}
+#answer {
+  display: none;
+  text-align: center;
+  padding-top: 150px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#eightball {
+  background: #000;
+  color: #fff;
+  width: 350px;
+  height: 350px;
+  border-radius: 170px;
+  display: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
